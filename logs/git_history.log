@@ -1,3 +1,4 @@
+* a18311c - Tran Thai Anh (Fri Oct 16 15:23:49 2026 +0700) : Complete Lab 7 software testing
 * 8f5a1bb - Tran Thai Anh (Fri Oct 16 14:54:45 2026 +0700) : add pytest
 * b1a5349 - Tran Thai Anh (Fri Oct 16 14:53:44 2026 +0700) : fix incorrect ci yaml file locations
 * d20108f - Tran Thai Anh (Fri Oct 16 14:52:09 2026 +0700) : fix yaml indentation
