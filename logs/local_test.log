@@ -1,3 +1,28 @@
-No data to report.
-No data to report.
-No data to report.
+test_calculate_total_for_empty_cart (test_yummy_app.TestEasyLevel.test_calculate_total_for_empty_cart) ... ok
+test_calculate_total_for_multiple_items (test_yummy_app.TestEasyLevel.test_calculate_total_for_multiple_items) ... ok
+test_calculate_total_for_single_item (test_yummy_app.TestEasyLevel.test_calculate_total_for_single_item) ... ok
+test_calculate_total_with_zero_quantity (test_yummy_app.TestEasyLevel.test_calculate_total_with_zero_quantity) ... ok
+test_gps_location_inside_supported_area (test_yummy_app.TestHardLevel.test_gps_location_inside_supported_area) ... ok
+test_gps_location_outside_supported_area (test_yummy_app.TestHardLevel.test_gps_location_outside_supported_area) ... ok
+test_gps_signal_lost (test_yummy_app.TestHardLevel.test_gps_signal_lost) ... ok
+test_promo_code_offline_raises_connection_error (test_yummy_app.TestMediumLevel.test_promo_code_offline_raises_connection_error) ... ok
+test_promo_code_online_valid (test_yummy_app.TestMediumLevel.test_promo_code_online_valid) ... ok
+test_special_promo_code_on_os_14_raises_value_error (test_yummy_app.TestMediumLevel.test_special_promo_code_on_os_14_raises_value_error) ... ok
+test_special_promo_code_on_os_15 (test_yummy_app.TestMediumLevel.test_special_promo_code_on_os_15) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.002s
+
+OK
+Name                               Stmts   Miss  Cover   Missing
+----------------------------------------------------------------
+src/yummyapp_cicd/gps_service.py       3      1    67%   10
+src/yummyapp_cicd/yummy_app.py        30      1    97%   51
+----------------------------------------------------------------
+TOTAL                                 33      2    94%
+Name                               Stmts   Miss  Cover
+------------------------------------------------------
+src/yummyapp_cicd/gps_service.py       3      1    67%
+src/yummyapp_cicd/yummy_app.py        30      1    97%
+------------------------------------------------------
+TOTAL                                 33      2    94%
