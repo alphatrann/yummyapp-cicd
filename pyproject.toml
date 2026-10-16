@@ -1,0 +1,21 @@
+[project]
+name = "yummyapp-cicd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tran Thai Anh", email = "alphatran.forwork@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "coverage==7.4.0",
+    "flake8==7.0.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+yummyapp-cicd = "yummyapp_cicd:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

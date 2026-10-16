@@ -1,0 +1,7 @@
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN
+/Users/alpha/Documents/yummyapp-cicd/.venv/lib/python3.13/site-packages/coverage/control.py:885: CoverageWarning: No data was collected. (no-data-collected)
+  self._warn("No data was collected.", slug="no-data-collected")
