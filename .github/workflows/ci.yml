@@ -39,12 +39,9 @@ jobs:
         run: |
           uv run coverage run \
             --source=yummy_app,gps_service \
-            -m unittest discover -s . -p "test_*.py" -v
-
+            -m unittest discover -s ./src/yummyapp_cicd -p "test_*.py" -v
           uv run coverage report -m
-
           uv run coverage html -d coverage_html
-
           uv run coverage report --fail-under=80
 
       - name: 6. Upload HTML Coverage Report Artifact
