@@ -10,6 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "coverage==7.4.0",
     "flake8==7.0.0",
+    "pytest>=9.1.1",
     "requests>=2.31.0",
 ]
 
